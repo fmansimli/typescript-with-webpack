@@ -1,0 +1,24 @@
+{
+  "name": "typescript-with-webpack",
+  "version": "1.0.0",
+  "description": "starter Typescript app with Webpack config.",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "author": "Farid Mansimli <farid.mansimli@faridmansim.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
